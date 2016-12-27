@@ -2,13 +2,13 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Maia
+ColorScheme=Breath
 
 [kdeglobals][Icons]
-Theme=maia
+Theme=breath
 
 [plasmarc][Theme]
-name=maia
+name=breath
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
@@ -21,4 +21,4 @@ LayoutName=org.kde.breeze.desktop
 
 [ksplashrc][KSplash]
 Engine=KSplashQML
-Theme=org.kde.maia.desktop
+Theme=org.kde.breath.desktop

@@ -9,6 +9,6 @@ Breath Look & Feel package.
 * Icons, based on Breeze https://cgit.kde.org/breeze-icons.git/
 * Plasma theme
 * Sddm theme, lock screen and splash screen based on Breeze.
-* Maia wallpaper
+* Breath wallpaper
 
 ![Alt text](/lookandfeel/contents/previews/preview.png?raw=true)

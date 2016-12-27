@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=maia
-Comment=The beautiful star of the firmament
-Comment[es]=La hermosa estrella del firmamento
+Name=breath
+Comment=A new breath
+Comment[es]=Un nuevo aliento
 X-KDE-PluginInfo-Author=Mcder3
 X-KDE-PluginInfo-Email=mcder3[at]gmail[dot]com
-X-KDE-PluginInfo-Name=Maia
+X-KDE-PluginInfo-Name=Breath
 X-KDE-PluginInfo-Version=2.0.1
 X-KDE-PluginInfo-Website=https://manjaro.github.io/
 X-KDE-PluginInfo-Category=Plasma Theme
@@ -15,7 +15,7 @@ X-Plasma-API=5.0
 Name[de_DE.utf8]=breath
 
 [Wallpaper]
-defaultWallpaperTheme=Maia
+defaultWallpaperTheme=Breath
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1080

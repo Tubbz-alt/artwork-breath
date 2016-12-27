@@ -93,8 +93,8 @@ ForegroundPositive=52,152,219
 ForegroundVisited=145,61,136
 
 [General]
-ColorScheme=Maia
-Name=Maia Dark
+ColorScheme=Breath Dark
+Name=Breath Dark
 shadeSortColumn=true
 
 [KDE]
