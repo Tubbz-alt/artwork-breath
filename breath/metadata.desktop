@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=maia
+Comment=The beautiful star of the firmament
+Comment[es]=La hermosa estrella del firmamento
+X-KDE-PluginInfo-Author=Mcder3
+X-KDE-PluginInfo-Email=mcder3[at]gmail[dot]com
+X-KDE-PluginInfo-Name=Maia
+X-KDE-PluginInfo-Version=2.0.1
+X-KDE-PluginInfo-Website=https://manjaro.github.io/
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-License=CC BY-ND (GPL in Breeze Elements)
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+Name[de_DE.utf8]=breath
+
+[Wallpaper]
+defaultWallpaperTheme=Maia
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080
