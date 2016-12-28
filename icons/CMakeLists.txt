@@ -13,9 +13,9 @@ endif(WIN32)
 
 ########### install files ###############
 
-set( maia_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status)
+set( breath_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status)
 
 
-set(MAIA_INSTALL_DIR ${ICON_INSTALL_DIR}/breath)
-install( DIRECTORY ${maia_icon_dirs} DESTINATION ${MAIA_INSTALL_DIR} PATTERN "*.sh" EXCLUDE )
-install( FILES index.theme DESTINATION ${MAIA_INSTALL_DIR})
+set(BREATH_INSTALL_DIR ${ICON_INSTALL_DIR}/breath)
+install( DIRECTORY ${breath_icon_dirs} DESTINATION ${BREATH_INSTALL_DIR} PATTERN "*.sh" EXCLUDE )
+install( FILES index.theme DESTINATION ${BREATH_INSTALL_DIR})
