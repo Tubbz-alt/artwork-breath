@@ -1,4 +1,4 @@
-project(maia-icons NONE)
+project(breath-icons NONE)
 
 cmake_minimum_required(VERSION 2.8)
 # include specific modules
@@ -16,6 +16,6 @@ endif(WIN32)
 set( maia_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status)
 
 
-set(MAIA_INSTALL_DIR ${ICON_INSTALL_DIR}/maia)
+set(MAIA_INSTALL_DIR ${ICON_INSTALL_DIR}/breath)
 install( DIRECTORY ${maia_icon_dirs} DESTINATION ${MAIA_INSTALL_DIR} PATTERN "*.sh" EXCLUDE )
 install( FILES index.theme DESTINATION ${MAIA_INSTALL_DIR})
