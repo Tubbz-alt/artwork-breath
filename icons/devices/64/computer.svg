@@ -14,7 +14,7 @@
    version="1.1"
    height="64"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="computer.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -26,12 +26,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1011"
      id="namedview85"
      showgrid="false"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="-9.8897375"
-     inkscape:cy="48.553434"
+     inkscape:zoom="11.313709"
+     inkscape:cx="41.743479"
+     inkscape:cy="50.724927"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -241,7 +241,7 @@
          id="rect3432" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:#0f9b71;fill-opacity:1"
+         style="fill:#179577;fill-opacity:1"
          id="rect4160"
          d="m 387.57143,504.79799 0,4 4.16667,0 0,-3 -1.04167,0 -1.04166,-1 z" />
       <path
@@ -256,7 +256,7 @@
          d="m 397.57143,504.79799 2,2 -2,0 z" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:#45cc87;fill-opacity:1"
+         style="fill:#42e2bc;fill-opacity:1"
          id="rect4272"
          d="m 387.57143,505.79799 5,0 0,4 -5,0 z" />
       <path

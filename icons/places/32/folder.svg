@@ -15,7 +15,7 @@
    height="32"
    viewBox="0 0 32 32"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="folder.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -31,9 +31,9 @@
      id="namedview17"
      showgrid="true"
      inkscape:object-nodes="true"
-     inkscape:zoom="29.5"
-     inkscape:cx="15.014693"
-     inkscape:cy="23.569903"
+     inkscape:zoom="14.75"
+     inkscape:cx="26.303578"
+     inkscape:cy="15.540139"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -44,6 +44,18 @@
   </sodipodi:namedview>
   <defs
      id="defs5455">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4501">
+      <stop
+         style="stop-color:#179577;stop-opacity:1"
+         offset="0"
+         id="stop4497" />
+      <stop
+         style="stop-color:#1ec29a;stop-opacity:1"
+         offset="1"
+         id="stop4499" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4176"
@@ -58,14 +70,23 @@
        inkscape:collect="always"
        id="linearGradient4176">
       <stop
-         style="stop-color:#3bad7e;stop-opacity:1"
+         style="stop-color:#1cb893;stop-opacity:1"
          offset="0"
          id="stop4178" />
       <stop
-         style="stop-color:#45cc87;stop-opacity:1"
+         style="stop-color:#42e2bc;stop-opacity:1"
          offset="1"
          id="stop4180" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4501"
+       id="linearGradient4503"
+       x1="402.57144"
+       y1="525.79797"
+       x2="402.57144"
+       y2="517.79797"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata5458">
@@ -87,7 +108,7 @@
     <g
        id="g4206">
       <path
-         style="fill:#0f9b71;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:url(#linearGradient4503);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 385.57143,517.798 12,0 3,4 15,0 0,22 -30,0 z"
          id="path4182"
          inkscape:connector-curvature="0"

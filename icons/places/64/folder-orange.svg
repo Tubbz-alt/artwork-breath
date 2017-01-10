@@ -14,7 +14,7 @@
    version="1.1"
    height="64"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="folder-orange.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -28,16 +28,32 @@
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview18"
-     showgrid="false"
-     inkscape:zoom="3.6875"
-     inkscape:cx="30.956502"
-     inkscape:cy="32"
+     showgrid="true"
+     inkscape:zoom="2.6074563"
+     inkscape:cx="-46.285883"
+     inkscape:cy="-12.830091"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1-2" />
+     inkscape:current-layer="layer1-2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid827" />
+  </sodipodi:namedview>
   <defs
      id="defs5455">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient833">
+      <stop
+         style="stop-color:#a3660d;stop-opacity:1;"
+         offset="0"
+         id="stop829" />
+      <stop
+         style="stop-color:#d58511;stop-opacity:1"
+         offset="1"
+         id="stop831" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4172-0">
       <stop
@@ -57,6 +73,15 @@
        x2="429.57144"
        y2="496.798"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient833"
+       id="linearGradient835"
+       x1="419.57144"
+       y1="501.79807"
+       x2="419.57144"
+       y2="489.79807"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata5458">
@@ -66,6 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,7 +113,7 @@
          inkscape:connector-curvature="0"
          id="rect4160"
          d="m 387.57144,489.798 23.99999,0 5,6 29,0 10e-6,38 -58,0 z"
-         style="fill:#a3660d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:url(#linearGradient835);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"

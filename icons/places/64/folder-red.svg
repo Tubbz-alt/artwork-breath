@@ -14,7 +14,7 @@
    version="1.1"
    height="64"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="folder-red.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -26,18 +26,34 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-height="1011"
      id="namedview17"
-     showgrid="false"
-     inkscape:zoom="7.375"
-     inkscape:cx="70.649162"
-     inkscape:cy="26.38827"
+     showgrid="true"
+     inkscape:zoom="20.85965"
+     inkscape:cx="12.278559"
+     inkscape:cy="50.860893"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4497" />
+  </sodipodi:namedview>
   <defs
      id="defs5455">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4503">
+      <stop
+         style="stop-color:#9d072c;stop-opacity:1;"
+         offset="0"
+         id="stop4499" />
+      <stop
+         style="stop-color:#d60a3c;stop-opacity:1"
+         offset="1"
+         id="stop4501" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4209">
@@ -58,6 +74,15 @@
        x2="429.57144"
        y2="496.798"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4503"
+       id="linearGradient4505"
+       x1="414.57144"
+       y1="502.79807"
+       x2="414.57144"
+       y2="489.79807"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata5458">
@@ -67,6 +92,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,7 +114,7 @@
          inkscape:connector-curvature="0"
          id="rect4160"
          d="m 387.57144,489.798 23.99999,0 5,6 29,0 10e-6,38 -58,0 z"
-         style="fill:#9d072c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:url(#linearGradient4505);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"
@@ -137,7 +163,7 @@
          inkscape:connector-curvature="0"
          id="rect4190"
          d="m 391.57142,494.798 6.00001,0 0,2 -6.00001,0 z"
-         style="fill:#f62459;fill-opacity:1;stroke:none" />
+         style="fill:#17c4fc;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

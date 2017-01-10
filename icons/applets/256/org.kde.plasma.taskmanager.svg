@@ -11,7 +11,7 @@
    viewBox="0 0 256 256"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="org.kde.plasma.taskmanager.svg">
   <metadata
      id="metadata10">
@@ -35,14 +35,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1050"
+     inkscape:window-height="1011"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="1.84375"
-     inkscape:cx="168.67863"
-     inkscape:cy="155.29493"
+     inkscape:zoom="5.2149125"
+     inkscape:cx="63.208687"
+     inkscape:cy="104.30968"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
@@ -632,7 +632,7 @@
          y="503.798"
          ry="0" />
       <rect
-         style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none"
+         style="opacity:1;fill:#1abc9c;fill-opacity:1;stroke:none"
          id="rect4157"
          width="31.999981"
          height="16"

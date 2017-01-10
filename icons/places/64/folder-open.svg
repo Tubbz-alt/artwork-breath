@@ -14,7 +14,7 @@
    version="1.1"
    height="64"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="folder-open.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -30,9 +30,9 @@
      id="namedview17"
      showgrid="true"
      inkscape:object-nodes="true"
-     inkscape:zoom="1.84375"
-     inkscape:cx="152.1109"
-     inkscape:cy="-12.245978"
+     inkscape:zoom="7.375"
+     inkscape:cx="8.6531573"
+     inkscape:cy="13.935512"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -45,25 +45,46 @@
      id="defs5455">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient4504">
+      <stop
+         style="stop-color:#179577;stop-opacity:1;"
+         offset="0"
+         id="stop4500" />
+      <stop
+         style="stop-color:#22daad;stop-opacity:1"
+         offset="1"
+         id="stop4502" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient4176"
        id="linearGradient4182"
        x1="429.57144"
        y1="541.79797"
        x2="429.57144"
-       y2="501.79807"
+       y2="496.79807"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4176">
       <stop
-         style="stop-color:#3bad7e;stop-opacity:1"
+         style="stop-color:#1cb893;stop-opacity:1"
          offset="0"
          id="stop4178" />
       <stop
-         style="stop-color:#45cc87;stop-opacity:1"
+         style="stop-color:#42e2bc;stop-opacity:1"
          offset="1"
          id="stop4180" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4504"
+       id="linearGradient4506"
+       x1="412.57144"
+       y1="506.79807"
+       x2="412.57144"
+       y2="489.79807"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata5458">
@@ -73,7 +94,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,7 +116,7 @@
          inkscape:connector-curvature="0"
          id="rect4160"
          d="m 387.57144,489.798 23.99999,0 5,6 29,0 10e-6,38 -58,0 z"
-         style="fill:#0f9b71;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:url(#linearGradient4506);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"
