@@ -20,7 +20,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,14 +34,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1050"
+     inkscape:window-height="1009"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="3.6875"
-     inkscape:cx="124.11069"
-     inkscape:cy="118.09436"
+     inkscape:zoom="1.3037281"
+     inkscape:cx="-7.5357733"
+     inkscape:cy="114.55966"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
@@ -50,10 +50,10 @@
        id="current-color-scheme"
        type="text/css">
       .ColorScheme-Text {
-        color:#f2f2f2;
+        color:#4d4d4d;
       }
       .ColorScheme-Background {
-        color:#31363b;
+        color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
@@ -62,7 +62,7 @@
         color:#31363b;
       }
       .ColorScheme-ViewBackground {
-        color:#314045;
+        color:#fcfcfc;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -74,7 +74,7 @@
         color:#31363b;
       }
       .ColorScheme-ButtonBackground {
-        color:#31363b;
+        color:#eff0f1;
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
@@ -95,7 +95,7 @@
      class="ColorScheme-Background"
      id="rect4238" />
   <rect
-     style="opacity:0.4;fill:#1d99f3;fill-opacity:1;stroke:none"
+     style="opacity:1;fill:#36d7b7;fill-opacity:0.58823532;stroke:none"
      id="rect5492"
      width="92"
      height="57.999969"
@@ -104,12 +104,12 @@
      rx="0"
      ry="0" />
   <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     style="fill:#36d7b7;fill-opacity:1;stroke:none"
      class="ColorScheme-Highlight"
      d="m 140,99 0,58 92,0 0,-58 -92,0 z m 1,1 90,0 0,56 -90,0 0,-56 z"
      id="rect5492-1" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:#36d7b7;fill-opacity:0.40000001;stroke:none"
      class="ColorScheme-Highlight"
      id="rect5512"
      width="35"
@@ -117,7 +117,7 @@
      x="155"
      y="103.00002" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:#36d7b7;fill-opacity:0.40000001;stroke:none"
      class="ColorScheme-Highlight"
      id="rect5514"
      width="35"
@@ -125,7 +125,7 @@
      x="193"
      y="111.00002" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:#36d7b7;fill-opacity:0.40000001;stroke:none"
      class="ColorScheme-Highlight"
      id="rect5516"
      width="17"
@@ -133,17 +133,17 @@
      x="144"
      y="132.00003" />
   <path
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      class="ColorScheme-Text"
      d="M 24 30 L 24 88 L 116 88 L 116 30 L 24 30 z M 140 30 L 140 88 L 232 88 L 232 30 L 140 30 z M 24 99 L 24 157 L 116 157 L 116 99 L 24 99 z M 24 168 L 24 226 L 116 226 L 116 168 L 24 168 z M 140 168 L 140 226 L 232 226 L 232 168 L 140 168 z "
      id="rect5492-9-6-3" />
   <path
-     style="color:#f2f2f2;opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
+     style="color:#4d4d4d;opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
      class="ColorScheme-Text"
      d="M 24 30 L 24 88 L 116 88 L 116 30 L 24 30 z M 140 30 L 140 88 L 232 88 L 232 30 L 140 30 z M 25 31 L 115 31 L 115 87 L 25 87 L 25 31 z M 141 31 L 231 31 L 231 87 L 141 87 L 141 31 z M 24 99 L 24 157 L 116 157 L 116 99 L 24 99 z M 25 100 L 115 100 L 115 156 L 25 156 L 25 100 z M 24 168 L 24 226 L 116 226 L 116 168 L 24 168 z M 140 168 L 140 226 L 232 226 L 232 168 L 140 168 z M 25 169 L 115 169 L 115 225 L 25 225 L 25 169 z M 141 169 L 231 169 L 231 225 L 141 225 L 141 169 z "
      id="rect5492-1-0-2-0" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect5936"
      width="67"
      height="50.000023"
@@ -151,7 +151,7 @@
      y="172.00003"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect5938"
      width="42"
      height="45"
@@ -159,7 +159,7 @@
      y="177.00003"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6003"
      width="51"
      height="50.000023"
@@ -167,7 +167,7 @@
      y="34.000023"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6005"
      width="22"
      height="20"
@@ -175,7 +175,7 @@
      y="35.000023"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6007"
      width="35"
      height="31"
@@ -183,7 +183,7 @@
      y="51.000023"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6009"
      width="39"
      height="30"
@@ -191,7 +191,7 @@
      y="36.000023"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6011"
      width="79"
      height="47"
@@ -199,7 +199,7 @@
      y="106.00002"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6013"
      width="44"
      height="35"
@@ -207,7 +207,7 @@
      y="39.000023"
      class="ColorScheme-Text" />
   <rect
-     style="fill:currentColor;fill-opacity:0.4;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.4;stroke:none"
      id="rect6015"
      width="67"
      height="36"
