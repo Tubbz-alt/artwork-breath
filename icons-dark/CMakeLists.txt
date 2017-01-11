@@ -1,4 +1,4 @@
-project(breath-icons NONE)
+project(breath-dark-icons NONE)
 
 cmake_minimum_required(VERSION 2.8)
 # include specific modules
@@ -16,6 +16,6 @@ endif(WIN32)
 set( breath_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status)
 
 
-set(BREATH_INSTALL_DIR ${ICON_INSTALL_DIR}/breath)
+set(BREATH_INSTALL_DIR ${ICON_INSTALL_DIR}/breath-dark)
 install( DIRECTORY ${breath_icon_dirs} DESTINATION ${BREATH_INSTALL_DIR} PATTERN "*.sh" EXCLUDE )
 install( FILES index.theme DESTINATION ${BREATH_INSTALL_DIR})
