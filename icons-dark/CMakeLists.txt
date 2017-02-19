@@ -13,7 +13,7 @@ endif(WIN32)
 
 ########### install files ###############
 
-set( breath_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status)
+set( breath_icon_dirs actions applets apps categories devices emblems emotes mimetypes places preferences status)
 
 
 set(BREATH_INSTALL_DIR ${ICON_INSTALL_DIR}/breath-dark)
