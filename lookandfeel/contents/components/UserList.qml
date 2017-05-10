@@ -42,13 +42,7 @@ ListView {
     preferredHighlightEnd: preferredHighlightBegin
 
     delegate: UserDelegate {
-        avatarPath: {
-            var incompatible = /\/usr\/share\/sddm\/faces\/((root)?)\.face\.icon$/
-            if (!model.icon || incompatible.test(model.icon))
-                return ""
-
-            return model.icon
-        }
+        avatarPath: model.icon || ""
         iconSource: model.iconName || "user-identity"
 
         name: {
