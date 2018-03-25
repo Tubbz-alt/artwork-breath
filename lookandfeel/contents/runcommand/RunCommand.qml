@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.0
+import QtQuick 2.6
 import QtQuick.Layouts 1.1
 import QtQuick.Window 2.1
 import org.kde.plasma.core 2.0 as PlasmaCore
@@ -60,6 +60,7 @@ ColumnLayout {
             }
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Configure")
             Accessible.description: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Configure Search Plugins")
+            visible: runnerWindow.canConfigure
         }
         PlasmaComponents.TextField {
             id: queryField
@@ -97,19 +98,28 @@ ColumnLayout {
             Keys.onPressed: allowCompletion = (event.key !== Qt.Key_Backspace && event.key !== Qt.Key_Delete)
             Keys.onUpPressed: {
                 if (length === 0) {
-                    root.showHistory = true
+                    root.showHistory = true;
+                    listView.forceActiveFocus();
+                } else if (results.count > 0) {
+                    results.forceActiveFocus();
+                    results.decrementCurrentIndex();
                 }
             }
             Keys.onDownPressed: {
                 if (length === 0) {
-                    root.showHistory = true
+                    root.showHistory = true;
+                    listView.forceActiveFocus();
+                } else if (results.count > 0) {
+                    results.forceActiveFocus();
+                    results.incrementCurrentIndex();
                 }
             }
+            Keys.onEnterPressed: results.runCurrentIndex(event)
+            Keys.onReturnPressed: results.runCurrentIndex(event)
 
             Keys.onEscapePressed: {
                 runnerWindow.visible = false
             }
-            Keys.forwardTo: [listView, results]
         }
         PlasmaComponents.ToolButton {
             iconSource: "window-close"
@@ -130,6 +140,13 @@ ColumnLayout {
             id: results
             queryString: root.query
             runner: root.runner
+
+            Keys.onPressed: {
+                if (event.text != "") {
+                    queryField.text += event.text;
+                    queryField.focus = true;
+                }
+            }
 
             onActivated: {
                 runnerWindow.addToHistory(queryString)
@@ -156,6 +173,7 @@ ColumnLayout {
             keyNavigationWraps: true
             highlight: PlasmaComponents.Highlight {}
             highlightMoveDuration: 0
+            activeFocusOnTab: true
             // we store 50 entries in the history but only show 20 in the UI so it doesn't get too huge
             model: root.showHistory ? runnerWindow.history.slice(0, 20) : []
             delegate: Milou.ResultDelegate {
@@ -166,13 +184,38 @@ ColumnLayout {
                     icon: "list-remove",
                     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Remove")
                 }]
+                Accessible.description: i18n("in category recent queries")
             }
 
+            onActiveFocusChanged: {
+                if (!activeFocus && currentIndex == listView.count-1) {
+                    currentIndex = 0;
+                }
+            }
             Keys.onReturnPressed: runCurrentIndex()
             Keys.onEnterPressed: runCurrentIndex()
-
-            Keys.onTabPressed: incrementCurrentIndex()
-            Keys.onBacktabPressed: decrementCurrentIndex()
+            
+            Keys.onTabPressed: {
+                if (currentIndex == listView.count-1) {
+                    listView.nextItemInFocusChain(true).forceActiveFocus();
+                } else {
+                    incrementCurrentIndex()
+                }
+            }
+            Keys.onBacktabPressed: {
+                if (currentIndex == 0) {
+                    listView.nextItemInFocusChain(false).forceActiveFocus();
+                } else {
+                    decrementCurrentIndex()
+                }
+            }
+            Keys.onPressed: {
+                if (event.text != "") {
+                    queryField.text += event.text;
+                    queryField.focus = true;
+                }
+            }
+  
             Keys.onUpPressed: decrementCurrentIndex()
             Keys.onDownPressed: incrementCurrentIndex()
 
@@ -180,6 +223,7 @@ ColumnLayout {
                 var entry = runnerWindow.history[currentIndex]
                 if (entry) {
                     queryField.text = entry
+                    queryField.forceActiveFocus();
                 }
             }
 
