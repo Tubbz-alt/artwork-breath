@@ -1,14 +1,5 @@
-Breath Theme
-=============
+This repo has been archived. Our code is now hosted at
 
-Breath Look & Feel package.
+https://gitlab.manjaro.org/
 
-## Contents
-
-* Color scheme
-* Icons, based on Breeze https://cgit.kde.org/breeze-icons.git/
-* Plasma theme
-* Sddm theme, lock screen and splash screen based on Breeze.
-* Breath wallpaper
-
-![Alt text](/lookandfeel/contents/previews/preview.png?raw=true)
+See you there!
